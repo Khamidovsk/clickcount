@@ -1,0 +1,52 @@
+@media(max-width:991.5px) {
+    body {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bgroundSmall.jpg')repeat center / cover;
+        padding-left: 30px;
+        box-shadow: inset 0px 0px 0px 0px rgba(254, 1, 154, 1);
+
+    }
+
+    .circle {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bgroundBigjpg.jpg')no-repeat center / cover;
+    }
+
+    header {
+        background: transparent;
+
+    }
+
+    .game {
+        display: block;
+    }
+
+    .chart {
+        text-align: center;
+        margin: auto;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .chart button {
+        margin-bottom: 45px;
+    }
+
+    .circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .NeonLight {
+        box-shadow: inset 0px 0px 0px 0px rgba(254, 1, 154, 1) !important;
+    }
+}
+
+@media(max-width:1900px) {
+    .scale {
+        width: 300px;
+        height: 300px;
+    }
+}
